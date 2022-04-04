@@ -57,6 +57,7 @@ h5 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2,
@@ -111,7 +112,7 @@ img {
     object-fit: cover;
 }
 
-/*###### Media Queries 'SMALL DEVICES' ############*/
+/*###### Media Queries 'MEDIUM DEVICES' ############*/
 @media screen  and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
@@ -121,6 +122,7 @@ img {
     }
 }
 
+/*###### Media Queries 'SMALL DEVICES' ############*/
 @media screen  and (max-width: 600px) {
    .container {
        width: var(--container-width-sm);
